@@ -1,0 +1,17 @@
+/*The first element: a black background and white text*/
+.first-element{
+    background-color: black;
+    color: white;
+}
+
+/*The second element: a yellow background*/
+.second-element{
+    background-color:rgb(240, 240, 8);
+}
+
+/*Both elements**: used the grouping selector for styles that both elements share. A font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback*/
+.first-element, .second-element, button{
+    font-size: 28px;
+    font-family: helvetica, 'Times New Roman', sans-serif;
+}
+
