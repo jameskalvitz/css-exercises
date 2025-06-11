@@ -1,10 +1,10 @@
-/**/
+/*Chained class selectors for avatar and proportioned*/
 .avatar.proportioned{
     width: 300px;
     height: auto;
 }
 
-/**/
+/*Chained class selectors for avatar and distorted*/
 .avatar.distorted{
     width: 200px;
     height: 400px;
